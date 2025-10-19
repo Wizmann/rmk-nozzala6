@@ -9,8 +9,8 @@ chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_10", "PIN_18"]
-output_pins = ["PIN_9", "PIN_5", "PIN_2"]
+input_pins = ["P0_09", "P0_02"]
+output_pins = ["P1_06", "P0_24", "P0_17"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 

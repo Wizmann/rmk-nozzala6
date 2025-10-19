@@ -1,33 +1,29 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
-name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+name = "RMK-Nozzala6"
+product_name = "Nozzala6"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "haobo"
-chip = "rp2040"
+manufacturer = "Wizmann"
+chip = "nrf52840_ble"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+input_pins = ["PIN_10", "PIN_18"]
+output_pins = ["PIN_9", "PIN_5", "PIN_2"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
-rows = 4
+rows = 2
 cols = 3
 layers = 2
 keymap = [
     [
         ["A", "B", "C"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
+        ["D", "E", "F"],
     ],
     [
-        ["_", "TT(1)", "TG(2)"],
-        ["_", "_", "_"],
         ["_", "_", "_"],
         ["_", "_", "_"]
     ],

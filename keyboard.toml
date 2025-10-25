@@ -4,8 +4,8 @@ name = "RMK-Nozzala6"
 product_name = "Nozzala6"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "Wizmann"
-board = "nice!nano"
+manufacturer = ""
+chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory

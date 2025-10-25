@@ -6,6 +6,7 @@ vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = ""
 chip = "nrf52840"
+usb_enable = true
 
 [matrix]
 # Input and output pins are mandatory
